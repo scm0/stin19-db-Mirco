@@ -5,28 +5,28 @@
 			<entity id="1" name="kursbesuche" fq-name="ex15.kursbesuche" showAttrs="ALL" order="0" x="695" y="344">
 				<path name="ex15"/>
 			</entity>
-			<entity id="2" name="kurskontrolle" fq-name="ex15.kurskontrolle" order="1" border-width="3" x="681" y="71">
+			<entity id="2" name="kurskontrolle" fq-name="ex15.kurskontrolle" order="1" border-width="3" x="683" y="171">
 				<path name="ex15"/>
 			</entity>
 			<entity id="3" name="kursleiter" fq-name="ex15.kursleiter" order="2" x="708" y="680">
 				<path name="ex15"/>
 			</entity>
-			<entity id="4" name="kursthemen" fq-name="ex15.kursthemen" order="3" x="1314" y="218">
+			<entity id="4" name="kursthemen" fq-name="ex15.kursthemen" order="3" x="1022" y="200">
 				<path name="ex15"/>
 			</entity>
-			<entity id="5" name="personen" fq-name="ex15.personen" order="4" x="128" y="617">
+			<entity id="5" name="personen" fq-name="ex15.personen" order="4" x="139" y="491">
 				<path name="ex15"/>
 			</entity>
-			<entity id="6" name="kurs" fq-name="ex15.kurs" order="5" x="1161" y="461">
+			<entity id="6" name="kurs" fq-name="ex15.kurs" order="5" x="1031" y="481">
 				<path name="ex15"/>
 			</entity>
-			<entity id="7" name="interne_kursleiter" fq-name="ex15.interne_kursleiter" order="6" x="491" y="1029">
+			<entity id="7" name="interne_kursleiter" fq-name="ex15.interne_kursleiter" order="6" x="424" y="817">
 				<path name="ex15"/>
 			</entity>
 			<entity id="8" name="funktion" fq-name="ex15.funktion" order="7" x="185" y="247">
 				<path name="ex15"/>
 			</entity>
-			<entity id="9" name="externe_kursleiter" fq-name="ex15.externe_kursleiter" order="8" x="992" y="1004">
+			<entity id="9" name="externe_kursleiter" fq-name="ex15.externe_kursleiter" order="8" x="1027" y="787">
 				<path name="ex15"/>
 			</entity>
 		</data-source>
