@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="ex15.erd">
+	<entities>
+		<data-source id="mysql8-17b733b4042-1c7ce845c46678ed">
+			<entity id="1" name="kursbesuche" fq-name="ex15.kursbesuche" showAttrs="ALL" order="0" x="695" y="344">
+				<path name="ex15"/>
+			</entity>
+			<entity id="2" name="kurskontrolle" fq-name="ex15.kurskontrolle" order="1" border-width="3" x="681" y="71">
+				<path name="ex15"/>
+			</entity>
+			<entity id="3" name="kursleiter" fq-name="ex15.kursleiter" order="2" x="708" y="680">
+				<path name="ex15"/>
+			</entity>
+			<entity id="4" name="kursthemen" fq-name="ex15.kursthemen" order="3" x="1314" y="218">
+				<path name="ex15"/>
+			</entity>
+			<entity id="5" name="personen" fq-name="ex15.personen" order="4" x="128" y="617">
+				<path name="ex15"/>
+			</entity>
+			<entity id="6" name="kurs" fq-name="ex15.kurs" order="5" x="1161" y="461">
+				<path name="ex15"/>
+			</entity>
+			<entity id="7" name="interne_kursleiter" fq-name="ex15.interne_kursleiter" order="6" x="491" y="1029">
+				<path name="ex15"/>
+			</entity>
+			<entity id="8" name="funktion" fq-name="ex15.funktion" order="7" x="185" y="247">
+				<path name="ex15"/>
+			</entity>
+			<entity id="9" name="externe_kursleiter" fq-name="ex15.externe_kursleiter" order="8" x="992" y="1004">
+				<path name="ex15"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="kursbesuche_FK_kl" fq-name="ex15.kursbesuche.kursbesuche_FK_kl" type="fk" pk-ref="3" fk-ref="1"/>
+		<relation name="interne_kursleiter_FK_k" fq-name="ex15.interne_kursleiter.interne_kursleiter_FK_k" type="fk" pk-ref="3" fk-ref="7"/>
+		<relation name="externe_kursleiter_FK_k" fq-name="ex15.externe_kursleiter.externe_kursleiter_FK_k" type="fk" pk-ref="3" fk-ref="9"/>
+		<relation name="kurs_FK_kt" fq-name="ex15.kurs.kurs_FK_kt" type="fk" pk-ref="4" fk-ref="6"/>
+		<relation name="kursbesuche_FK_p" fq-name="ex15.kursbesuche.kursbesuche_FK_p" type="fk" pk-ref="5" fk-ref="1"/>
+		<relation name="interne_kursleiter_FK_p" fq-name="ex15.interne_kursleiter.interne_kursleiter_FK_p" type="fk" pk-ref="5" fk-ref="7"/>
+		<relation name="kursbesuche_FK_k" fq-name="ex15.kursbesuche.kursbesuche_FK_k" type="fk" pk-ref="6" fk-ref="1"/>
+		<relation name="kurskontrolle_FK_k" fq-name="ex15.kurskontrolle.kurskontrolle_FK_k" type="fk" pk-ref="6" fk-ref="2"/>
+		<relation name="kurskontrolle_FK_f" fq-name="ex15.kurskontrolle.kurskontrolle_FK_f" type="fk" pk-ref="8" fk-ref="2"/>
+		<relation name="personen_FK_f" fq-name="ex15.personen.personen_FK_f" type="fk" pk-ref="8" fk-ref="5"/>
+	</relations>
+</diagram>
