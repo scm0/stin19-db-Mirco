@@ -58,5 +58,9 @@ Ergänzen Sie Ihr Entity-Relationship-Diagramm mit den Kardinalitäten:
 
 ![**ERD**](/image/ex12_Aufgabe5.2.JPG)
 
+## Aufgabe6 Script:
+
+Erstellen sie ein Script ex12:
+[Task15](Scripts/ex12.sql)
 
 
