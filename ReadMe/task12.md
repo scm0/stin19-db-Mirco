@@ -61,6 +61,6 @@ Ergänzen Sie Ihr Entity-Relationship-Diagramm mit den Kardinalitäten:
 ## Aufgabe6 Script:
 
 Erstellen sie ein Script ex12:
-[Script ex12](Scripts/ex12.sql)
+[Script ex12](/Scripts/ex12.sql)
 
 
