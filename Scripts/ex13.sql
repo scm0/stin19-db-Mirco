@@ -9,7 +9,7 @@ USE ex13;
 CREATE TABLE `firmenwagen` (
 `fwnr` INTEGER(11) NOT NULL,
 `kennzeichen` VARCHAR(45) NOT NULL,
-`anschaffungskosten` INTEGER(10) NOT NULL,
+`anschaffungskosten` FLOAT(15) NOT NULL,
 `anschaffungsdatum` DATE NOT NULL,
 `fmnr`INTEGER(11)NOT NULL,
 `vtnr`INTEGER(11)NOT NULL,
@@ -21,14 +21,14 @@ CREATE TABLE `fahrzeugmodel` (
 `model` VARCHAR(45) NOT NULL,
 `hersteller` VARCHAR(45) NOT NULL,
 `kraftstoff` VARCHAR(45) NOT NULL,
-`verbrauch` FLOAT(10) NOT NULL,
+`verbrauch` FLOAT(15) NOT NULL,
 PRIMARY KEY (`fmnr`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `instandhaltung` (
 `ihnr` INTEGER(11) NOT NULL,
-`kosten` INTEGER(11) NOT NULL,
-`kilometerstand` INTEGER(45) NOT NULL,
+`kosten` FLOAT(11) NOT NULL,
+`kilometerstand` FLOAT(10) NOT NULL,
 `datum` DATE NOT NULL,
 `beschreibung` VARCHAR(200),
 `fwnr`INTEGER(11)NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE `vertrag` (
 `vtnr` INTEGER(11) NOT NULL,
 `versicherungsnr` INTEGER(20) NOT NULL,
 `kasko` VARCHAR(45) NOT NULL,
-`jahreskosten` INTEGER(10)NOT NULL,
+`jahreskosten` FLOAT(15)NOT NULL,
 `vnr`INTEGER(11)NOT NULL,
 PRIMARY KEY (`vtnr`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -127,6 +127,7 @@ ALTER TABLE ex13.reservierung ADD CONSTRAINT reservierung_FK_ma FOREIGN KEY (mnr
 ALTER TABLE ex13.reservierung ADD CONSTRAINT reservierung_FK_fw FOREIGN KEY (fwnr) REFERENCES ex13.firmenwagen(fwnr);
 ALTER TABLE ex13.vertrag ADD CONSTRAINT vertrag_FK FOREIGN KEY (vnr) REFERENCES ex13.versicherung(vnr);
 ALTER TABLE ex13.firmenwagen ADD CONSTRAINT firmenwagen_FK_vt FOREIGN KEY (vtnr) REFERENCES ex13.vertrag(vtnr);
+ALTER TABLE ex13.firmenwagen ADD CONSTRAINT firmenwagen_FK_fm FOREIGN KEY (fmnr) REFERENCES ex13.fahrzeugmodel(fmnr);
 ALTER TABLE ex13.instandhaltung ADD CONSTRAINT instandhaltung_FK FOREIGN KEY (fwnr) REFERENCES ex13.firmenwagen(fwnr);
 
 -- Views
