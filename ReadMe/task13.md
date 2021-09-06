@@ -71,13 +71,13 @@ Welche Informationsobjekte (Personen, Sachen, Vorgänge, ...) spielen in dem Ges
 
 Erstellen Sie das Entity Relationship Diagrammmit Beziehungstypen und ID-Schlüsseln
 
-![**ERM**](/image/ex13_Aufgabe3.JPG)
+![**ERM**](/image/ex1_Aufgabe3.JPG)
 
 ## Aufgabe4 Relationen und Lokalattribute:
 
 Erstellen Sie die Relation
 
-![**ERM**](/image/ex13_Aufgabe4.JPG)
+![**ERD**](/image/ex13_Aufgabe4.JPG)
 
 ## Aufgabe5 Datenbank
 
