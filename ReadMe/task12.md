@@ -34,16 +34,16 @@ Welche Informationsobjekte (Personen, Sachen, Vorgänge, ...) spielen in dem Ges
 Erstellen Sie das Entity Relationship Diagramm:
 
 
-![**ERD**](/image/ex12_Aufgabe3.JPG)
+![**ERM Aufgabe 3**](/image/ex12_Aufgabe3.JPG)
 
 
-## Aufgabe4 Definition von Identifikationsschlüsseln:
+## Aufgbe4 Definition von Identifikationsschlüsseln:
 
 
-ErgänzenSie das Entity Relationship Diagrammmit den Schlüsseln:
+ErgänzenSie das Entity Relationship Diagram mit den Schlüsseln:
 
 
-![**ERD**](/image/ex12_Aufgabe4.JPG)
+![**ERM Aufgabe 4**](/image/ex12_Aufgabe4.JPG)
 
 
 ## Aufgabe5 Globale Normalisierung:
@@ -52,11 +52,13 @@ ErgänzenSie das Entity Relationship Diagrammmit den Schlüsseln:
 Ergänzen Sie Ihr Entity-Relationship-Diagramm mit den Kardinalitäten:
 
 
-![**ERD**](/image/ex12_Aufgabe5.JPG)
+![**ERM Aufgabe 5**](/image/ex12_Aufgabe5.JPG)
 
 ### Aufgabe5.2 Überführung eines ERM in ein Relationenmodell
 
-![**ERD**](/image/ex12_Aufgabe5.2.JPG)
+Relationsmodel:
+
+![**ERM Aufgabe 5.2**](/image/ex12_Aufgabe5.2.JPG)
 
 ## Aufgabe6 Script:
 
