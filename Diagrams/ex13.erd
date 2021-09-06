@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="ex13.erd">
+	<entities>
+		<data-source id="mysql8-17b733b4042-1c7ce845c46678ed">
+			<entity id="1" name="firmenwagen" fq-name="ex13.firmenwagen" order="0" x="524" y="347">
+				<path name="ex13"/>
+			</entity>
+			<entity id="2" name="fahrzeugmodel" fq-name="ex13.fahrzeugmodel" order="1" x="375" y="18">
+				<path name="ex13"/>
+			</entity>
+			<entity id="3" name="instandhaltung" fq-name="ex13.instandhaltung" order="2" x="90" y="369">
+				<path name="ex13"/>
+			</entity>
+			<entity id="4" name="mitarbeiter" fq-name="ex13.mitarbeiter" order="3" border-width="3" x="1261" y="372">
+				<path name="ex13"/>
+			</entity>
+			<entity id="5" name="reservierung" fq-name="ex13.reservierung" order="4" x="979" y="363">
+				<path name="ex13"/>
+			</entity>
+			<entity id="6" name="versicherung" fq-name="ex13.versicherung" order="5" x="638" y="698">
+				<path name="ex13"/>
+			</entity>
+			<entity id="7" name="vertrag" fq-name="ex13.vertrag" order="6" x="184" y="709">
+				<path name="ex13"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="instandhaltung_FK" fq-name="ex13.instandhaltung.instandhaltung_FK" type="fk" pk-ref="1" fk-ref="3"/>
+		<relation name="reservierung_FK_fw" fq-name="ex13.reservierung.reservierung_FK_fw" type="fk" pk-ref="1" fk-ref="5"/>
+		<relation name="firmenwagen_FK_fm" fq-name="ex13.firmenwagen.firmenwagen_FK_fm" type="fk" pk-ref="2" fk-ref="1"/>
+		<relation name="reservierung_FK_ma" fq-name="ex13.reservierung.reservierung_FK_ma" type="fk" pk-ref="4" fk-ref="5"/>
+		<relation name="vertrag_FK" fq-name="ex13.vertrag.vertrag_FK" type="fk" pk-ref="6" fk-ref="7"/>
+		<relation name="firmenwagen_FK_vt" fq-name="ex13.firmenwagen.firmenwagen_FK_vt" type="fk" pk-ref="7" fk-ref="1"/>
+	</relations>
+</diagram>
