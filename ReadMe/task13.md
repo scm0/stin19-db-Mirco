@@ -2,11 +2,9 @@
 
 ## Aufgabenstellung:
 
-Die FirmaAtlanta GmbHhat einen Fuhrpark von Firmenwägen, die von Mitarbeitern für berufliche Zwecke genutzt werden können. Das Unternehmen möchte die Verwaltung des Fuhrparks, die bislang ausschliesslich in Papierform erfolgt, auf eine IT-gestützte Lösung umstellen.
-
 - Reservierung:
 
-    Die FirmaAtlanta GmbHhat einen Fuhrpark von Firmenwägen, die von Mitarbeitern für berufliche Zwecke genutzt werden können. Das Unternehmen möchte die Verwaltung des Fuhrparks, die bislang ausschliesslich in Papierform erfolgt, auf eine IT-gestützte Lösung umstellen.
+    Die Firma Atlanta GmbH hat einen Fuhrpark von Firmenwägen, die von Mitarbeitern für berufliche Zwecke genutzt werden können. Das Unternehmen möchte die Verwaltung des Fuhrparks, die bislang ausschliesslich in Papierform erfolgt, auf eine IT-gestützte Lösung umstellen.
 
 - Instandhaltung:
 
@@ -14,7 +12,7 @@ Die FirmaAtlanta GmbHhat einen Fuhrpark von Firmenwägen, die von Mitarbeitern f
 
 - Versicherung:
 
-    Als zusätzliche Anforderung sollen auch einige Daten der Kfz-Versicherungen der Fahrzeuge in die Datenbank integriert werden.Verlangt  werden  jeweils  folgende  Informationen:  die  Versicherungsnummer,  ob zusätzlich   zur   Haftpflichtversicherung   eine   Vollkasko   bzw.   Teilkasko abgeschlossen  wurde,  die  Höhe  des  jährlichen  Beitrags  sowie  die  jeweilige Versicherungsgesellschaft, inklusive Postanschrift und Telefonnummer. Es soll auch möglich sein, die Kontaktdaten einer Versicherungsgesellschaft zu erfassen,  mit  der  bisher  noch  kein  Kfz-Versicherungsvertrag  abgeschlossen worden ist. Es reicht aus, wenn für jeden Firmenwagen jeweils der aktuelle Vertrag gespeichert werden kann. Eine Historie wird nicht verlangt.
+    Als zusätzliche Anforderung sollen auch einige Daten der Kfz-Versicherungen der Fahrzeuge in die Datenbank integriert werden. Verlangt  werden  jeweils  folgende  Informationen:  die  Versicherungsnummer,  ob zusätzlich   zur   Haftpflichtversicherung   eine   Vollkasko   bzw.   Teilkasko abgeschlossen  wurde,  die  Höhe  des  jährlichen  Beitrags  sowie  die  jeweilige Versicherungsgesellschaft, inklusive Postanschrift und Telefonnummer. Es soll auch möglich sein, die Kontaktdaten einer Versicherungsgesellschaft zu erfassen,  mit  der  bisher  noch  kein  Kfz-Versicherungsvertrag  abgeschlossen worden ist. Es reicht aus, wenn für jeden Firmenwagen jeweils der aktuelle Vertrag gespeichert werden kann. Eine Historie wird nicht verlangt.
 
 ## Aufgabe2 Bildung von Entitätsmengen:
 
@@ -69,7 +67,7 @@ Welche Informationsobjekte (Personen, Sachen, Vorgänge, ...) spielen in dem Ges
 
 ## Aufgabe3 Entity Relationship Diagramm:
 
-Erstellen Sie das Entity Relationship Diagrammmit Beziehungstypen und ID-Schlüsseln
+Erstellen Sie das Entity Relationship Diagramm mit Beziehungstypen und ID-Schlüsseln
 
 
 ![**ERM**](/image/ex13_Aufgabe3.jpg)
@@ -77,14 +75,13 @@ Erstellen Sie das Entity Relationship Diagrammmit Beziehungstypen und ID-Schlüs
 
 ## Aufgabe4 Relationen und Lokalattribute:
 
-Erstellen Sie die Relation
+Erstellen Sie die Relation:
+
+![ERM Aufgabe 5.2](/image/ex13_relationenmodel.JPG)
 
 ![**ERD**](/image/ex13_Aufgabe4.JPG)
 
 ## Aufgabe5 Datenbank
-
-Erstellen Sie die Datenbank und befüllen diese mit sinnvollen Daten.
-[Script ex13](/Scripts/ex13.sql)
 
 ***VIEWS***
 
@@ -99,3 +96,6 @@ Erstellen Sie die Datenbank und befüllen diese mit sinnvollen Daten.
 **versicherungsview:**
 
 ![**reservierungsview**](/image/ex13_versiecherungsview.JPG)
+
+Erstellen Sie die Datenbank und befüllen diese mit sinnvollen Daten.
+[Script ex13](/Scripts/ex13.sql)

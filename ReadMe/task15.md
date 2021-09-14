@@ -21,7 +21,7 @@ Mit den Werten:
 
 ## Aufgabe2 Daten in die Datenbank einfügen:
 
-Mit den vorggebenen Werten werden die Tabellen befüllt.
+Mit den vorgebenen Werten, werden die Tabellen befüllt.
 
 ## Aufgabe3 Abfrage besuchte Kurse einer Person:
 
@@ -29,10 +29,8 @@ View all_courses
 
 ![**all_courses_view**](/image/ex15_all_courses_view.JPG)
 
-## Aufgabe4: Erstellen einesERD's
+## Aufgabe4 Erstellen eines ERD's
 
 ![**ERD**](/image/ex15_Aufgabe4.JPG)
 
-Script:
-
-[Script ex15](/Scripts/ex15.sql)
+Script: [Script ex15](/Scripts/ex15.sql)
