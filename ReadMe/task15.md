@@ -21,7 +21,7 @@ Mit den Werten:
 
 ## Aufgabe2 Daten in die Datenbank einfügen:
 
-Mit den vorgebenen Werten, werden die Tabellen befüllt.
+Mit den vorgegebenen Werten, werden die Tabellen befüllt.
 
 ## Aufgabe3 Abfrage besuchte Kurse einer Person:
 
