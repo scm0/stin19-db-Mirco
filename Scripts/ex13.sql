@@ -21,7 +21,7 @@ CREATE TABLE `fahrzeugmodel` (
 `model` VARCHAR(45) NOT NULL,
 `hersteller` VARCHAR(45) NOT NULL,
 `kraftstoff` VARCHAR(45) NOT NULL,
-`verbrauch` FLOAT(15) NOT NULL,
+`verbrauch` decimal(4,1) NOT NULL,
 PRIMARY KEY (`fmnr`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 

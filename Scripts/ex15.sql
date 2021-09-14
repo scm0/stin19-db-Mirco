@@ -42,7 +42,9 @@ PRIMARY KEY (`ktnr`)
 CREATE TABLE `kursleiter` (
 `klnr` INTEGER(2) NOT NULL,
 `status` VARCHAR(1) NOT NULL,
-PRIMARY KEY (`klnr`)
+PRIMARY KEY (`klnr`),
+constraint s_check
+check (status ='I'or status='E')
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `externe_kursleiter` (

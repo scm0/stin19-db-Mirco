@@ -1,4 +1,4 @@
-# EX13
+# EX15
 
 ## Aufgabenstellung:
 
@@ -29,9 +29,9 @@ View all_courses
 
 ![**all_courses_view**](/image/ex15_all_courses_view.JPG)
 
-## Aufgabe 4: Erstellen einesERD's
+## Aufgabe4: Erstellen einesERD's
 
-![**ERD**](/image/ex15_Aufgabe4_.JPG)
+![**ERD**](/image/ex15_Aufgabe4.JPG)
 
 Script:
 
