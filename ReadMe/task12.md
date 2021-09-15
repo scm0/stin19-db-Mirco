@@ -7,7 +7,7 @@ Die Fahrrad Müller GmbH vermietet Fahrräder. In ihrem Angebot finden sich vers
 
 *Beispiel:*
 
-Am 11.08.2020 schliesst Max Maier den Mietvertrag für ein Mountainbike und ein Trekkingrad ab. Es wird vereinbart, dass der Mietzeitraum am nächsten Tag beginnt und drei Tage dauert. Der Angestellte ruft über die Software eine Liste aller Mountainbikes auf und ordnet dem Mietvertrag das Fahrrad mit der Kennung Cross#7 zu. Anschliessend ruft er eine Liste aller Trekkingräderauf und ordnet dem Mietvertrag noch das Fahrrad mit der Kennung Mark#2zu.
+Am 11.08.2020 schliesst Max Maier den Mietvertrag für ein Mountainbike und ein Trekkingrad ab. Es wird vereinbart, dass der Mietzeitraum am nächsten Tag beginnt und drei Tage dauert. Der Angestellte ruft über die Software eine Liste aller Mountainbikes auf und ordnet dem Mietvertrag das Fahrrad mit der Kennung Cross#7 zu. Anschliessend ruft er eine Liste aller Trekkingräder auf und ordnet dem Mietvertrag noch das Fahrrad mit der Kennung Mark#2 zu.
 
 
 ## Aufgabe2 Bildung von Entitätsmengen:
@@ -54,7 +54,7 @@ Ergänzen Sie Ihr Entity-Relationship-Diagramm mit den Kardinalitäten:
 
 ![ERM Aufgabe 5](/image/ex12_Aufgabe5.JPG)
 
-### Aufgabe5.2 Überführung eines ERM in ein Relationenmodell
+### Aufgabe5.1 Überführung eines ERM in ein Relationenmodell
 
 Relationsmodel:
 
